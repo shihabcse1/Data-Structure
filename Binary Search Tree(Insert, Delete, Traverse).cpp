@@ -16,7 +16,7 @@ Node *create_node(int item){
     return newNode;
 }
 
-/*------------Inorder Start----------------*/
+/*------------Insert Start----------------*/
 
 Node *insert_node(Node *node, int key){
     if(node == NULL)
