@@ -63,10 +63,10 @@ bool deleteItem(int key){
 
 //-------------- Printing the hashTable ----------------
 
-void printHashTable(){
-    for(int i = 0; i < 11; i++){
+void printHashTable(){ // Let's consider the HashTable as 2d vector. So we have to traverse it.
+    for(int i = 0; i < 11; i++){ // First we are going the index i
         cout<<i<<"->";
-        for(int j = 0; j < hashTable[i].size(); j++){
+        for(int j = 0; j < hashTable[i].size(); j++){ // Then we are travering the size of every i.
             cout<<hashTable[i][j].name;
             if(j < hashTable[i].size() - 1){
                 cout<<"->";
