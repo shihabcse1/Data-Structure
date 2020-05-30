@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-
+//---------------- It's just a Class 'Item' with Constructor for taking key and value ---------------
 class Item{
 public:
     int key;
@@ -27,7 +27,7 @@ int hashFunction(int key){
 //-------------- Inserts an item in the hashTable ----------------
 
 void insertItem(int key, string name){
-    int index = hashFunction(key);
+    int index = hashFunction(key); // The HashFunction has return a value as index.
     hashTable[index].push_back(Item(key, name));
 }
 
