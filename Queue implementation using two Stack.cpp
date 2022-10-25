@@ -44,6 +44,6 @@ int main(){
 		cout<<q.deQueue()<<endl;
 		count--;
 	}
-	cout<<"execution completed"<<endl;
+	cout<<"Execution completed"<<endl;
 	return 0;
 }
